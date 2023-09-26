@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/core/utils/app_assets.dart';
 import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/core/utils/app_colors.dart';
 import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/core/utils/constants.dart';
 import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/features/random_quote/presentation/widgets/quote_content.dart';

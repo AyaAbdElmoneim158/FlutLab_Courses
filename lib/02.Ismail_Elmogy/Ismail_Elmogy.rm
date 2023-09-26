@@ -4,3 +4,5 @@
   - Add Structure
   - Add Resourse `String`, `Color`, `Theme`, 'Assets: fonts, images`, `Routes`, `constants`, 'Media`
   - Add Ui
+  - Add Domain Layer
+  - Add Date Layer

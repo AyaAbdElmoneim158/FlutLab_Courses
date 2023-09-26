@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/core/utils/app_colors.dart';
-import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/core/utils/media_query_values.dart';
 
 class QuoteContent extends StatelessWidget {
   // final Quote quote; required this.quote
