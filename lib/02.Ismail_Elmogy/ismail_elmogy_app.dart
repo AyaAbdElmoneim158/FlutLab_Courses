@@ -11,6 +11,7 @@ class IsmailElmogyApp extends StatelessWidget {
     return MaterialApp(
       title: AppStrings.appName,
       theme: appTheme(),
+      debugShowCheckedModeBanner: false,
       home: const QuoteScreen(),
     );
   }

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/core/utils/app_assets.dart';
 import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/core/utils/app_colors.dart';
-import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/core/utils/app_strings.dart';
 import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/core/utils/constants.dart';
 import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/features/random_quote/presentation/widgets/quote_content.dart';
 
@@ -11,7 +10,14 @@ class QuoteScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Image.asset(ImgAssets.quote)
+        appBar: AppBar(
+            title: SizedBox(
+          height: 132,
+          child: Image.asset(
+            'assets/Ismail_Elmogy_Quotes_App/images/quote.png',
+            // ImgAssets.quote
+          ),
+        )
             // const Text(AppStrings.appName),
             ),
         body: Column(
