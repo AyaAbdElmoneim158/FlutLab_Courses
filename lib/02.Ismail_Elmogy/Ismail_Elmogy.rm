@@ -8,3 +8,5 @@
   - Add Date Layer
   - Add Presentation Layer
     - Add Cubit
+    - Add Provider to Routes + Builder to QuoteScreen
+  - Add Injector
