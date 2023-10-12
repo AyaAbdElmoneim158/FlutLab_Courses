@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_courses/04.Abdullah_Mansour/shared/components/components.dart';
 
 class LoginDesign extends StatelessWidget {
   const LoginDesign({Key? key}) : super(key: key);
@@ -21,16 +22,7 @@ class LoginDesign extends StatelessWidget {
                 style: Theme.of(context).textTheme.headlineMedium,
               ),
               const SizedBox(height: 48),
-              TextFormField(
-                controller: emailController,
-                keyboardType: TextInputType.emailAddress,
-                decoration: const InputDecoration(
-                  hintText: "Email",
-                  labelText: "Email",
-                  border: OutlineInputBorder(),
-                  prefixIcon: Icon(Icons.email),
-                ),
-              ),
+              CustomTextField(controller: emailController),
               const SizedBox(height: 12),
               TextFormField(
                 controller: passwordController,
@@ -45,22 +37,7 @@ class LoginDesign extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 24),
-              SizedBox(
-                width: double.infinity,
-                height: 54,
-                child: ElevatedButton(
-                    // MaterialButton
-                    onPressed: () {
-                      debugPrint('Email: ${emailController.text}');
-                      debugPrint('Email: ${passwordController.text}');
-                    },
-                    child: const Text(
-                      "Login",
-                      style: TextStyle(
-                        color: Colors.white,
-                      ),
-                    )),
-              ),
+              const CustomBtn(),
               const SizedBox(height: 12),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -87,3 +64,5 @@ class LoginDesign extends StatelessWidget {
     );
   }
 }
+
+

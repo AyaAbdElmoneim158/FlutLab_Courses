@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_courses/04.Abdullah_Mansour/modules/tasks/tasks_screen.dart';
 import 'todo_states.dart';
 
 class ToDoCubit extends Cubit<ToDoStates> {
@@ -9,7 +10,7 @@ class ToDoCubit extends Cubit<ToDoStates> {
   //* Change_NavBar_logic ------------------------------------------------------
   int currentIndex = 0;
   List<Widget> screens = const [
-    Center(child: Text("Tasks Screen")),
+    TasksScreen(),
     Center(child: Text("Done Screen")),
     Center(child: Text("Archived Screen")),
   ];
