@@ -1,6 +1,6 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
-import 'package:flutter_courses/04.Abdullah_Mansour/messenger_screen.dart';
+import './modules/messenger/messenger_screen.dart';
 
 class AbdullahMansour extends StatelessWidget {
   const AbdullahMansour({Key? key}) : super(key: key);
