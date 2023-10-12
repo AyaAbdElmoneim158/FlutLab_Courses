@@ -1,7 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/core/network/netwok_info.dart';
-import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/features/random_quote/data/datasources/local_data_source.dart';
-import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/features/random_quote/data/datasources/remote_data_source.dart';
+import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/core/network/network_info.dart';
+import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/features/random_quote/data/dataSources/remote_data_source.dart';
 import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/features/random_quote/data/repositories/quote_repo_impl.dart';
 import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/features/random_quote/domain/repositories/quote_repo.dart';
 import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/features/random_quote/domain/usecases/get_random_quote_usecase.dart';
@@ -51,7 +50,7 @@ Future<void> init() async {
   //! External
   final sharedPreferences = await SharedPreferences.getInstance();
   sl.registerLazySingleton(() => sharedPreferences);
-  // sl.registerLazySingleton(() => AppIntercepters());
+  // sl.registerLazySingleton(() => AppInterceptors());
   // sl.registerLazySingleton(() => LogInterceptor(
   //     request: true,
   //     requestBody: true,

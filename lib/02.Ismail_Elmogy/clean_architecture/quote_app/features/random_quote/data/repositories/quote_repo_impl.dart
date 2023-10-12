@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/core/error/exceptions.dart';
 import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/core/error/failures.dart';
-import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/core/network/netwok_info.dart';
-import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/features/random_quote/data/datasources/local_data_source.dart';
-import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/features/random_quote/data/datasources/remote_data_source.dart';
+import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/core/network/network_info.dart';
+import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/features/random_quote/data/dataSources/local_data_source.dart';
+import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/features/random_quote/data/dataSources/remote_data_source.dart';
 import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/features/random_quote/data/models/quote_model.dart';
 import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/features/random_quote/domain/entities/quote_entity.dart';
 import 'package:flutter_courses/02.Ismail_Elmogy/clean_architecture/quote_app/features/random_quote/domain/repositories/quote_repo.dart';

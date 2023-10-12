@@ -40,7 +40,6 @@ class LoginDesign extends StatelessWidget {
                   hintText: "Password",
                   labelText: "Password",
                   border: OutlineInputBorder(),
-                  // prefixIcon: Icon(Icons.passw),
                   prefixIcon: Icon(Icons.password),
                   suffixIcon: Icon(Icons.visibility_off),
                 ),
@@ -52,8 +51,8 @@ class LoginDesign extends StatelessWidget {
                 child: ElevatedButton(
                     // MaterialButton
                     onPressed: () {
-                      debugPrint('Email: ${emailController?.text}');
-                      debugPrint('Email: ${passwordController?.text}');
+                      debugPrint('Email: ${emailController.text}');
+                      debugPrint('Email: ${passwordController.text}');
                     },
                     child: const Text(
                       "Login",
@@ -67,7 +66,7 @@ class LoginDesign extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    "Don't Have accout!",
+                    "Don't Have account!",
                     style: Theme.of(context).textTheme.bodyMedium,
                   ),
                   TextButton(

@@ -1,5 +1,6 @@
+// ignore: file_names
 import 'package:flutter/material.dart';
-import 'package:flutter_courses/04.Abdullah_Mansour/messanger_screen.dart';
+import 'package:flutter_courses/04.Abdullah_Mansour/messenger_screen.dart';
 
 class AbdullahMansour extends StatelessWidget {
   const AbdullahMansour({Key? key}) : super(key: key);
@@ -10,7 +11,7 @@ class AbdullahMansour extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       darkTheme: ThemeData(),
       themeMode: ThemeMode.dark,
-      home: const MessangerDesign(),
+      home: const MessengerDesign(),
     );
   }
 }

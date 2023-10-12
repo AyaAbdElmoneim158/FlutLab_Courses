@@ -21,10 +21,10 @@ class ErrorWidget extends StatelessWidget {
         ),
         Container(
           margin: const EdgeInsets.symmetric(vertical: 12),
-          child: Text(
+          child: const Text(
             'something_went_wrong',
             // AppLocalizations.of(context)!.translate('something_went_wrong')!,
-            style: const TextStyle(
+            style: TextStyle(
                 color: Colors.black, fontSize: 20, fontWeight: FontWeight.w700),
           ),
         ),
@@ -40,15 +40,14 @@ class ErrorWidget extends StatelessWidget {
           margin: const EdgeInsets.symmetric(vertical: 15),
           child: ElevatedButton(
             style: ElevatedButton.styleFrom(
-                primary: AppColors.primary,
-                onPrimary: Theme.of(context).primaryColor,
+                foregroundColor: Theme.of(context).primaryColor, backgroundColor: AppColors.primary,
                 elevation: 500,
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(50))),
-            child: Text(
+            child: const Text(
               'reload_screen',
               // AppLocalizations.of(context)!.translate('reload_screen')!,
-              style: const TextStyle(
+              style: TextStyle(
                   color: Colors.white,
                   fontSize: 20,
                   fontWeight: FontWeight.w700),
