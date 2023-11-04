@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_courses/04.Abdullah_Mansour/abdullah_mansour.dart';
 
 void main() async {
   // WidgetsFlutterBinding.ensureInitialized();
@@ -11,6 +10,6 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
-    return const AbdullahMansour();
+    return Container();
   }
 }
